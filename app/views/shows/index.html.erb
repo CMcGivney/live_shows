@@ -1,0 +1,13 @@
+<h1>Summer Shows Utah 2019</h1>
+<hr />
+
+<%= link_to "Create New Show", new_show_path %>
+
+<% @shows.each do |show| %>
+<h2> <%= show.band %> </h2>
+<%= link_to "View Show", show_path(show.id) %>
+<%= link_to "Edit show", edit_show_path(show.id) %>
+<%= link_to "Delete show", show_path(show.id), method: :delete %> 
+
+
+<% end %>

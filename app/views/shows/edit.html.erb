@@ -1,0 +1,23 @@
+<h1>Edit Summer '19 Show</h1>
+
+<%= form_for @show do |f| %>
+<%=  f.label :venue %>
+<%= f.text_field :venue %>
+
+<%= f.label :band %>
+<%= f.text_field :band %>
+
+<%= f.label :genre %>
+<%= f.text_field :genre%>
+
+<%= f.label :time %>
+<%= f.text_field :time%>
+
+<%= f.label :date %>
+<%= f.text_field :date%>
+
+<%= f.label :price %>
+<%= f.text_field :price%>
+
+<%= f.submit %>
+<% end %>
