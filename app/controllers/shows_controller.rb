@@ -26,7 +26,7 @@ class ShowsController < ApplicationController
     if @show.save
       redirect_to shows_path
     else
-      rende :new
+      render :new
     end
   end
 
