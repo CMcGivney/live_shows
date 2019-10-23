@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A project using Ruby on Rails to contruct a website. 
 
-Things you may want to cover:
+This was a fun exercise, using ERB to construct MVC and routes for this website. 
 
-* Ruby version
+This project is not deployed, it was just a simple exercise. 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
